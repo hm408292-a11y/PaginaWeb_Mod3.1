@@ -329,7 +329,8 @@ body::after {
 .visual-ph {
     width: 100%;
     height: 100%;
-    position: relative;
+    position: absolute;
+    inset: 0;
     background: linear-gradient(135deg, #1a1a25 0%, #0f0e17 50%, #1a1a25 100%);
     overflow: hidden;
     display: flex;
@@ -364,7 +365,7 @@ body::after {
     position: relative;
     font-size: clamp(2.4rem, 5vw, 3.4rem);
     color: var(--lh-red);
-    opacity: .7;
+    opacity: .75;
     z-index: 2;
     filter: drop-shadow(0 0 18px rgba(255,46,46,.7));
     transition: transform .5s, opacity .5s;
