@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Galería | Logic Hardware</title>
+<title>Problema | Logic Hardware</title>
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230a0a0f'/%3E%3Crect x='25' y='25' width='50' height='50' rx='8' fill='none' stroke='%23ff2e2e' stroke-width='3'/%3E%3Ctext x='50' y='58' text-anchor='middle' fill='%23ff2e2e' font-size='22' font-weight='900' font-family='Arial'%3ELH%3C/text%3E%3C/svg%3E">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
@@ -34,8 +34,8 @@
         <div class="collapse navbar-collapse" id="navMenu">
             <ul class="navbar-nav ms-auto align-items-lg-center gap-1">
                 <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-                <li class="nav-item"><a class="nav-link" href="problema.html">Problema</a></li>
-                <li class="nav-item"><a class="nav-link active" href="galeria.html">Galería</a></li>
+                <li class="nav-item"><a class="nav-link active" href="problema.html">Problema</a></li>
+                <li class="nav-item"><a class="nav-link" href="galeria.html">Galería</a></li>
                 <li class="nav-item"><a class="nav-link" href="justificacion.html">Justificación</a></li>
                 <li class="nav-item"><a class="nav-link" href="solucion.html">Solución</a></li>
                 <li class="nav-item"><a class="nav-link" href="proceso.html">Proceso</a></li>
@@ -48,160 +48,28 @@
 <section class="section">
     <div class="container">
         <div class="section-header reveal">
-            <span class="section-tag">Capturas del Sistema</span>
-            <h2 class="section-title">Así funciona <span>Logic Hardware</span></h2>
-            <p class="section-subtitle">Vistas de las principales pantallas del sistema desarrollado en Python + Tkinter con base de datos MySQL.</p>
+            <span class="section-tag">Diagnóstico</span>
+            <h2 class="section-title">El <span>problema</span> que resolvemos</h2>
+            <p class="section-subtitle">Los talleres manejan equipos con métodos manuales: libretas, hojas sueltas y recordatorios mentales. Esto provoca pérdida de información, retrasos y descontrol financiero.</p>
         </div>
         <div class="row g-4">
-            <div class="col-md-6 reveal">
-                <div class="mockup-card">
-                    <div class="mockup-window">
-                        <div class="mockup-titlebar">
-                            <div class="dot red"></div><div class="dot yellow"></div><div class="dot green"></div>
-                            <span class="ttl">Logic Hardware · Dashboard</span>
-                        </div>
-                        <div class="mockup-body">
-                            <div class="mockup-sidebar">
-                                <div class="sb-logo">LH</div>
-                                <div class="sb-item active"><i class="bi bi-speedometer2"></i> Dashboard</div>
-                                <div class="sb-item"><i class="bi bi-people"></i> Clientes</div>
-                                <div class="sb-item"><i class="bi bi-laptop"></i> Equipos</div>
-                                <div class="sb-item"><i class="bi bi-tools"></i> Reparaciones</div>
-                                <div class="sb-item"><i class="bi bi-box-seam"></i> Repuestos</div>
-                            </div>
-                            <div class="mockup-main">
-                                <div class="mockup-h">Panel de Control</div>
-                                <div class="mockup-stat-grid">
-                                    <div class="mockup-stat-box"><div class="n">24</div><div class="l">Clientes</div></div>
-                                    <div class="mockup-stat-box"><div class="n">12</div><div class="l">Pendientes</div></div>
-                                    <div class="mockup-stat-box"><div class="n">$1.4k</div><div class="l">Ingresos</div></div>
-                                </div>
-                                <div class="mockup-table">
-                                    <div class="mockup-row head"><span>ID</span><span>Cliente</span><span>Estado</span></div>
-                                    <div class="mockup-row"><span>#001</span><span>Juan P.</span><span><span class="mockup-badge">Reparado</span></span></div>
-                                    <div class="mockup-row"><span>#002</span><span>María L.</span><span><span class="mockup-badge orange">En taller</span></span></div>
-                                    <div class="mockup-row"><span>#003</span><span>Carlos R.</span><span><span class="mockup-badge red">Diagnóstico</span></span></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mockup-label"><i class="bi bi-speedometer2"></i> Dashboard Principal</div>
-                </div>
-            </div>
-            <div class="col-md-6 reveal">
-                <div class="mockup-card">
-                    <div class="mockup-window">
-                        <div class="mockup-titlebar">
-                            <div class="dot red"></div><div class="dot yellow"></div><div class="dot green"></div>
-                            <span class="ttl">Logic Hardware · Nuevo Cliente</span>
-                        </div>
-                        <div class="mockup-body">
-                            <div class="mockup-sidebar">
-                                <div class="sb-logo">LH</div>
-                                <div class="sb-item"><i class="bi bi-speedometer2"></i> Dashboard</div>
-                                <div class="sb-item active"><i class="bi bi-people"></i> Clientes</div>
-                                <div class="sb-item"><i class="bi bi-laptop"></i> Equipos</div>
-                                <div class="sb-item"><i class="bi bi-tools"></i> Reparaciones</div>
-                            </div>
-                            <div class="mockup-main">
-                                <div class="mockup-h">Registrar Cliente</div>
-                                <div class="mockup-table">
-                                    <div class="mockup-row head"><span>Campo</span><span>Valor</span><span></span></div>
-                                    <div class="mockup-row"><span>Nombre</span><span>Juan Pérez</span><span></span></div>
-                                    <div class="mockup-row"><span>Teléfono</span><span>+503 7890-1234</span><span></span></div>
-                                    <div class="mockup-row"><span>Correo</span><span>juan@mail.com</span><span></span></div>
-                                </div>
-                                <div class="mockup-btn">Guardar Cliente</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mockup-label"><i class="bi bi-person-plus"></i> Registro de Clientes</div>
-                </div>
-            </div>
-            <div class="col-md-6 reveal">
-                <div class="mockup-card">
-                    <div class="mockup-window">
-                        <div class="mockup-titlebar">
-                            <div class="dot red"></div><div class="dot yellow"></div><div class="dot green"></div>
-                            <span class="ttl">Logic Hardware · Reparaciones</span>
-                        </div>
-                        <div class="mockup-body">
-                            <div class="mockup-sidebar">
-                                <div class="sb-logo">LH</div>
-                                <div class="sb-item"><i class="bi bi-speedometer2"></i> Dashboard</div>
-                                <div class="sb-item"><i class="bi bi-people"></i> Clientes</div>
-                                <div class="sb-item active"><i class="bi bi-tools"></i> Reparaciones</div>
-                            </div>
-                            <div class="mockup-main">
-                                <div class="mockup-h">Lista de Reparaciones</div>
-                                <div class="mockup-table">
-                                    <div class="mockup-row head"><span>Equipo</span><span>Estado</span><span>Costo</span></div>
-                                    <div class="mockup-row"><span>Dell XPS 13</span><span><span class="mockup-badge orange">En proceso</span></span><span>$85</span></div>
-                                    <div class="mockup-row"><span>HP Pavilion</span><span><span class="mockup-badge">Reparado</span></span><span>$120</span></div>
-                                    <div class="mockup-row"><span>MacBook Air</span><span><span class="mockup-badge red">Diagnóstico</span></span><span>$—</span></div>
-                                    <div class="mockup-row"><span>Lenovo IdeaPad</span><span><span class="mockup-badge">Entregado</span></span><span>$95</span></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mockup-label"><i class="bi bi-tools"></i> Gestión de Reparaciones</div>
-                </div>
-            </div>
-            <div class="col-md-6 reveal">
-                <div class="mockup-card">
-                    <div class="mockup-window">
-                        <div class="mockup-titlebar">
-                            <div class="dot red"></div><div class="dot yellow"></div><div class="dot green"></div>
-                            <span class="ttl">Logic Hardware · Reportes</span>
-                        </div>
-                        <div class="mockup-body">
-                            <div class="mockup-sidebar">
-                                <div class="sb-logo">LH</div>
-                                <div class="sb-item"><i class="bi bi-speedometer2"></i> Dashboard</div>
-                                <div class="sb-item active"><i class="bi bi-graph-up"></i> Reportes</div>
-                                <div class="sb-item"><i class="bi bi-file-earmark-pdf"></i> Exportar</div>
-                            </div>
-                            <div class="mockup-main">
-                                <div class="mockup-h">Ingresos del Mes</div>
-                                <div class="mockup-stat-grid">
-                                    <div class="mockup-stat-box"><div class="n">$2.4k</div><div class="l">Total</div></div>
-                                    <div class="mockup-stat-box"><div class="n">48</div><div class="l">Trabajos</div></div>
-                                    <div class="mockup-stat-box"><div class="n">+18%</div><div class="l">vs. Mes</div></div>
-                                </div>
-                                <div class="mockup-table">
-                                    <div class="mockup-row head"><span>Fecha</span><span>Servicio</span><span>Monto</span></div>
-                                    <div class="mockup-row"><span>12/08</span><span>Cambio SSD</span><span>$85</span></div>
-                                    <div class="mockup-row"><span>14/08</span><span>Limpieza</span><span>$40</span></div>
-                                    <div class="mockup-row"><span>16/08</span><span>Pantalla</span><span>$150</span></div>
-                                </div>
-                                <div class="mockup-btn">Exportar a PDF</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mockup-label"><i class="bi bi-file-earmark-bar-graph"></i> Reportes y Exportación</div>
-                </div>
-            </div>
+            <div class="col-md-6 col-lg-4 reveal"><div class="prob-card"><div class="prob-img"><span class="prob-num">01</span><div class="visual-ph"><i class="bi bi-clipboard-x"></i></div><div class="prob-icon-float"><i class="bi bi-clipboard-x"></i></div></div><div class="prob-body"><h5>Pérdida de información</h5><p>Las libretas se extravían o mojan, perdiendo todos los registros. No existe un historial de reparaciones.</p></div></div></div>
+            <div class="col-md-6 col-lg-4 reveal"><div class="prob-card"><div class="prob-img"><span class="prob-num">02</span><div class="visual-ph"><i class="bi bi-hourglass-split"></i></div><div class="prob-icon-float"><i class="bi bi-hourglass-split"></i></div></div><div class="prob-body"><h5>Pérdida de tiempo</h5><p>Buscar información entre varias libretas retrasa las entregas. No hay seguimiento de estados claros.</p></div></div></div>
+            <div class="col-md-6 col-lg-4 reveal"><div class="prob-card"><div class="prob-img"><span class="prob-num">03</span><div class="visual-ph"><i class="bi bi-cash-stack"></i></div><div class="prob-icon-float"><i class="bi bi-cash-stack"></i></div></div><div class="prob-body"><h5>Control financiero inexistente</h5><p>No se sabe cuánto se gana por reparación ni en total. Sin registro de repuestos utilizados.</p></div></div></div>
+            <div class="col-md-6 col-lg-4 reveal"><div class="prob-card"><div class="prob-img"><span class="prob-num">04</span><div class="visual-ph"><i class="bi bi-files"></i></div><div class="prob-icon-float"><i class="bi bi-files"></i></div></div><div class="prob-body"><h5>Información duplicada</h5><p>El mismo cliente se registra varias veces con datos diferentes. Los equipos similares se confunden.</p></div></div></div>
+            <div class="col-md-6 col-lg-4 reveal"><div class="prob-card"><div class="prob-img"><span class="prob-num">05</span><div class="visual-ph"><i class="bi bi-exclamation-triangle"></i></div><div class="prob-icon-float"><i class="bi bi-exclamation-triangle"></i></div></div><div class="prob-body"><h5>Errores humanos</h5><p>Errores al escribir datos, confusión entre equipos y equipos entregados al cliente equivocado.</p></div></div></div>
+            <div class="col-md-6 col-lg-4 reveal"><div class="prob-card"><div class="prob-img"><span class="prob-num">06</span><div class="visual-ph"><i class="bi bi-telephone-x"></i></div><div class="prob-icon-float"><i class="bi bi-telephone-x"></i></div></div><div class="prob-body"><h5>Mala comunicación</h5><p>Los clientes llaman preguntando el estado de su equipo y no hay información clara que proporcionar.</p></div></div></div>
         </div>
-    </div>
-    <div class="section-divider">
-        <svg viewBox="0 0 1440 60" preserveAspectRatio="none"><path fill="#0f0e17" d="M0,30 C360,60 1080,0 1440,30 L1440,60 L0,60 Z"/></svg>
-    </div>
-</section>
-
-<section class="section" style="background: linear-gradient(135deg, #0f0e17, #1a1a25, #0f0e17);">
-    <div class="container">
-        <div class="section-header reveal">
-            <span class="section-tag">Mundo Real</span>
-            <h2 class="section-title">El contexto del <span>taller</span></h2>
-            <p class="section-subtitle">Técnicos, equipos y componentes reales que inspiraron el desarrollo de Logic Hardware.</p>
-        </div>
-        <div class="row g-4">
-            <div class="col-md-6 col-lg-4 reveal"><div class="gallery-item"><div class="visual-ph"><i class="bi bi-tools"></i></div><div class="gallery-overlay"><i class="bi bi-tools"></i><h6>Técnicos en acción</h6><p>Reparación de equipos reales</p></div></div></div>
-            <div class="col-md-6 col-lg-4 reveal"><div class="gallery-item"><div class="visual-ph"><i class="bi bi-laptop"></i></div><div class="gallery-overlay"><i class="bi bi-laptop"></i><h6>Equipos de todo tipo</h6><p>Laptops, PCs y servidores</p></div></div></div>
-            <div class="col-md-6 col-lg-4 reveal"><div class="gallery-item"><div class="visual-ph"><i class="bi bi-cpu"></i></div><div class="gallery-overlay"><i class="bi bi-cpu"></i><h6>Componentes</h6><p>Cada pieza, registrada</p></div></div></div>
-            <div class="col-md-6 col-lg-4 reveal"><div class="gallery-item"><div class="visual-ph"><i class="bi bi-server"></i></div><div class="gallery-overlay"><i class="bi bi-server"></i><h6>Servidores</h6><p>Infraestructura crítica</p></div></div></div>
-            <div class="col-md-6 col-lg-4 reveal"><div class="gallery-item"><div class="visual-ph"><i class="bi bi-motherboard"></i></div><div class="gallery-overlay"><i class="bi bi-motherboard"></i><h6>Diagnóstico</h6><p>Precisión en cada reparación</p></div></div></div>
-            <div class="col-md-6 col-lg-4 reveal"><div class="gallery-item"><div class="visual-ph"><i class="bi bi-code-slash"></i></div><div class="gallery-overlay"><i class="bi bi-code-slash"></i><h6>Software propio</h6><p>Hecho con Python + MySQL</p></div></div></div>
+        <div class="text-center mt-5 reveal">
+            <h5 class="text-white fw-bold mb-4">¿Quiénes tienen este problema?</h5>
+            <div class="d-flex flex-wrap justify-content-center gap-2">
+                <span class="attr-badge" style="padding:10px 18px;"><i class="bi bi-tools me-1"></i> Técnicos independientes</span>
+                <span class="attr-badge" style="padding:10px 18px;"><i class="bi bi-building me-1"></i> Departamentos de empresas</span>
+                <span class="attr-badge" style="padding:10px 18px;"><i class="bi bi-shop me-1"></i> Centros autorizados</span>
+                <span class="attr-badge" style="padding:10px 18px;"><i class="bi bi-cpu me-1"></i> Tiendas de electrónica</span>
+                <span class="attr-badge" style="padding:10px 18px;"><i class="bi bi-mortarboard me-1"></i> Estudiantes</span>
+                <span class="attr-badge" style="padding:10px 18px;"><i class="bi bi-bank me-1"></i> Universidades</span>
+            </div>
         </div>
     </div>
 </section>
